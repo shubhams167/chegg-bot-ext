@@ -1,0 +1,1 @@
+# Chegg Bot Extension
