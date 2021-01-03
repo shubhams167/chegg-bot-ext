@@ -1,0 +1,27 @@
+{
+	"name": "chegg-bot-ext",
+	"version": "1.0.0",
+	"description": "",
+	"main": "background.js",
+	"scripts": {
+		"pack": "./node_modules/.bin/webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shubhams167/chegg-bot-ext.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shubhams167/chegg-bot-ext/issues"
+	},
+	"homepage": "https://github.com/shubhams167/chegg-bot-ext#readme",
+	"dependencies": {
+		"socket.io-client": "^3.0.4"
+	},
+	"devDependencies": {
+		"webpack": "^5.11.1",
+		"webpack-cli": "^4.3.1"
+	}
+}

@@ -7,7 +7,7 @@
 	"author": "Shubham Singh",
 	"background": {
 		"persistent": true,
-		"scripts": ["socket.io.js", "background.js"]
+		"scripts": ["./dist/background.bundle.js"]
 	},
 	"browser_action": {
 		"default_icon": "./images/icon.png",
