@@ -13,17 +13,17 @@ const getAnswer = () => {
 		const answer = document.querySelector(".answer-given-body").innerHTML;
 
 		const html = `	<h2><u>QUESTION</u></h2>
-						<div style="border-radius: 1px solid black; border: 2px solid black; padding: 5px;">
+						<div style='border-radius: 1px solid black; background-color: lightblue; border: 2px solid black; padding: 5px;'>
 							${question}
 						</div>
 						<br>
 						<h2><u>STATS</u></h2>
-						<div style="border-radius: 1px solid black; border: 2px solid black; padding: 5px;">
+						<div style='border-radius: 1px solid black; border: 2px solid black; padding: 5px;'>
 							<h3>Likes: ${likes} Dislikes: ${dislikes}</h3>
 						</div>
 						<br>
 						<h2><u>ANSWER</u></h2>
-						<div style="border-radius: 1px solid black; border: 2px solid black; padding: 5px;">
+						<div style='border-radius: 1px solid black; background-color: lightyellow; border: 2px solid black; padding: 5px;'>
 							${answer}
 						</div>
 						`;
