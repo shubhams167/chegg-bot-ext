@@ -1,4 +1,3 @@
-const io = require("socket.io-client");
 const socket = io("https://bot.shubhamsingh14.repl.co");
 
 socket.on("get-question", async (...args) => {
