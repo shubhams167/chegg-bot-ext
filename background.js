@@ -1,4 +1,4 @@
-const socket = io("https://bot.shubhamsingh14.repl.co");
+const socket = io("https://worker-1.shubhamsingh14.repl.co");
 
 socket.on("get-question", async (...args) => {
 	const link = args[0];
